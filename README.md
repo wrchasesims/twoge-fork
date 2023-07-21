@@ -1,4 +1,4 @@
-# W(H)IP
+# W(H)IP - Twoge EKS Deployment
 
 ## TODO:
 1. Make a real readme
