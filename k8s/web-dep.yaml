@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-deployment
+  namespace: twoge
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: twoge
+  template:
+    metadata:
+      labels:
+        app: twoge
+    spec:
+      containers:
+      - name: twoge
+        image: chaseums0967/twoge:latest
+        envFrom:
+        - secretRef:
+            name: secrets
+        ports:
+        - containerPort: 8080
