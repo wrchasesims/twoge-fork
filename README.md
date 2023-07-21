@@ -4,7 +4,7 @@
 - Fork/pull source code
 - Do Dockerfile magic.
 - Fiddle with database creds until something works
-- Containerize the image of that lean-mean-webapp-machine and put it on the ol' DockerHub.
+- Containerize that lean-mean-webapp-machine and put it on the ol' DockerHub.
     - Well..... Maybe first, make sure everything is good with the configuration using Docker Compose, with an actual database.
 - Create all them sweet yaml files for Kubey to gobble up.
 - Feed Kubey
