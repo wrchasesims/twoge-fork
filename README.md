@@ -1,5 +1,18 @@
 # W(H)IP - Twoge EKS Deployment
 
+## VERY Quick Overview
+- Fork/pull source code
+- Do Dockerfile magic.
+- Fiddle with database creds until something works
+- Containerize the image of that lean-mean-webapp-machine and put it on the ol' DockerHub.
+    - Well..... Maybe first, make sure everything is good with the configuration using Docker Compose, with an actual database.
+- Create all them sweet yaml files for Kubey to gobble up.
+- Feed Kubey
+    - Test your nommy yamls before giving them to Kubey.
+- Deploy to AWS after hours of troubleshooting.
+- Rejoice. It is done.
+
+
 ## TODO:
 1. Make a real readme
 2. Integrate Helm into the mix
