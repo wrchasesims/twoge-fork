@@ -10,7 +10,7 @@
 - Feed Kubey
     - Test your nommy yamls before giving them to Kubey.
 - Deploy to AWS after hours of troubleshooting.
-- Rejoice. It is done.
+- Rejoice. It is done.(?)
 
 
 ## TODO:
