@@ -1,4 +1,4 @@
-# W(H)IP - Twoge EKS Deployment
+# WIP - Twoge EKS Deployment
 
 ## VERY Quick Overview
 - Fork/pull source code
